@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 11pt;
+	background-color: #fff;
+	color: #222;
+}
+
+.main-table {
+	width: 100%;
+	text-align: left;
+	min-width: 1000px;
+	margin-bottom: 35px;
+}
+.main-table tr th, tr td {
+	padding: 8px;
+	vertical-align: middle;
+}
+.main-table tr th {
+	background-color: #03A9F4;
+	color: #fff;
+	font-variant: small-caps;
+	font-weight: 700;
+	font-size: 14pt;
+}
+.main-table tr td {
+	line-height: 16pt;
+}
+.main-table tr td:nth-child(1) {
+	width: 64px;
+	text-align: center;
+}
+.main-table tr td:nth-child(3) { width: 96px; }
+.main-table tr td:nth-child(4) { width: 180px; }
+.main-table tr:nth-child(odd) td {
+	background-color: #f6f6f6;
+}
+.main-table tr:nth-child(even) td {
+	background-color: #fff;
+}
+.main-table tr:hover td {
+	background-color: #eee;
+}
+.fa-play:hover {
+	color: #03A9F4;
+}
+.fa-download {
+	text-decoration: none;
+	color: #222;
+}
+.fa-download:hover {
+	color: #4CAF50;
+}
+.fa-stop:hover {
+	color: #F44336;
+}
+
+.fa {
+	padding-right: 12px;
+}
+.filename {
+	font-weight: 700;
+	display: block;
+}
+.details {
+	color: #999;
+	font-size: 8pt;
+}
+.sep {
+	margin-left: 8px;
+	margin-right: 8px;
+	background-color: #ccc;
+	display: inline-block;
+	width: 1px;
+	height: 8px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 35px;
+	background-color: #000;
+	color: #fff;
+	font-size: 14pt;
+	line-height: 35px;
+}
+.left {
+	display: inline-block;
+	float: left;
+	margin-left: 8px;
+}
+.right {
+	display: inline-block;
+	float: right;
+	margin-right: 8px;
+}
+.dl-all {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius: 4px;
+	font-size: 11pt;
+	text-align: center;
+	display: initial;
+}
+.dl-all:hover {
+	background-color: #66BB6A;
+}
+.footer a {
+	text-decoration: none;
+}
